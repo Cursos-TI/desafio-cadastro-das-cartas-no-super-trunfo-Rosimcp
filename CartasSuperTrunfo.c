@@ -1,20 +1,14 @@
 #include <stdio.h>
-
-// int main() {
-// int signedNumber = 3000000000; // Este valor excede o limite de de um intervalo normal 
-
-
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    int num1, num2, soma;
+    // lendo dois números do usuario
+    printf("digite o primeiro numero:")
+        scanf("%d,&num2);
+        printf("Digite o segundo numero:");
+    scanf("%d",&num2
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
+    // Calculando a soma dos dois numeros soma = num1 + num2;
+  // exibindo o resultado 
+        printf("A soma de %d e: %d\n", num1, num2, soma):
     return 0;
 }
