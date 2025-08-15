@@ -1,14 +1,21 @@
 #include <stdio.h>
 int main() {
-    int num1, num2, soma;
-    // lendo dois números do usuario
-    printf("digite o primeiro numero:")
-        scanf("%d,&num2);
-        printf("Digite o segundo numero:");
-    scanf("%d",&num2
+    int idade = 25;
+    float altura = 1.675;
+    double saldoBancário = 12345.67;
+    char inicial = "A";
+    char name [20] = "Bruno";
     
-    // Calculando a soma dos dois numeros soma = num1 + num2;
-  // exibindo o resultado 
-        printf("A soma de %d e: %d\n", num1, num2, soma):
-    return 0;
+    printf("idade: %d anos\n, idade);
+            prinntf("Altura: %.2F metros \n", altura);
+    printf("saldo bancário: %.2f reais \n, saldo Bancário);
+        printf("inicial do Nome: %c\n", inicial);
+    printf("Nome: %\n", nome);
+
+ return 0;
 }
+ 
+    
+        
+
+    
